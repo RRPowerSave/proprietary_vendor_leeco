@@ -471,8 +471,4 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
-    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
-    vendor/leeco/msm8996-common/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
-    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
-    vendor/leeco/msm8996-common/proprietary/lib64/libparam.so:system/lib64/libparam.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so
