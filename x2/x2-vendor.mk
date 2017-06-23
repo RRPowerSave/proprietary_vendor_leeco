@@ -150,6 +150,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/qvop/noisesample.bin:system/etc/qvop/noisesample.bin \
     vendor/leeco/x2/proprietary/etc/qvop/poc_64_hmm.gmm:system/etc/qvop/poc_64_hmm.gmm \
     vendor/leeco/x2/proprietary/etc/qxdm/1.cfg:system/etc/qxdm/1.cfg \
+    vendor/leeco/x2/proprietary/etc/qxdm/2.cfg:system/etc/qxdm/2.cfg \
+    vendor/leeco/x2/proprietary/etc/qxdm/gps.cfg:system/etc/qxdm/gps.cfg \
+    vendor/leeco/x2/proprietary/etc/qxdm/modem+gps.cfg:system/etc/qxdm/modem+gps.cfg \
+    vendor/leeco/x2/proprietary/etc/qxdm/modem.cfg:system/etc/qxdm/modem.cfg \
+    vendor/leeco/x2/proprietary/etc/qxdm/sensor.cfg:system/etc/qxdm/sensor.cfg \
     vendor/leeco/x2/proprietary/etc/stargate/image_quality/templates/template1.pgm:system/etc/stargate/image_quality/templates/template1.pgm \
     vendor/leeco/x2/proprietary/etc/stargate/qfp_config.txt:system/etc/stargate/qfp_config.txt \
     vendor/leeco/x2/proprietary/etc/stargate/wakeup/templates/template_imaginary.bin:system/etc/stargate/wakeup/templates/template_imaginary.bin \
