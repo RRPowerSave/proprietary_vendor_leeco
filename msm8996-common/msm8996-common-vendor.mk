@@ -404,6 +404,15 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
+    vendor/leeco/msm8996-common/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
+    vendor/leeco/msm8996-common/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
+    vendor/leeco/msm8996-common/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
+    vendor/leeco/msm8996-common/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
+    vendor/leeco/msm8996-common/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+    vendor/leeco/msm8996-common/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
+    vendor/leeco/msm8996-common/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/leeco/msm8996-common/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/leeco/msm8996-common/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/leeco/msm8996-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
