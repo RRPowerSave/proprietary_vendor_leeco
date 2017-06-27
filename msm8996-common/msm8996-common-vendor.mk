@@ -201,7 +201,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/leeco/msm8996-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so \
@@ -404,15 +403,25 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
-    vendor/leeco/msm8996-common/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
-    vendor/leeco/msm8996-common/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
-    vendor/leeco/msm8996-common/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
-    vendor/leeco/msm8996-common/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
-    vendor/leeco/msm8996-common/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
-    vendor/leeco/msm8996-common/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
-    vendor/leeco/msm8996-common/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
-    vendor/leeco/msm8996-common/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
-    vendor/leeco/msm8996-common/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/leeco/msm8996-common/proprietary/bin/drmserver:system/bin/drmserver \
+    vendor/leeco/msm8996-common/proprietary/etc/permissions/com.android.mediadrm.signer.xml:system/etc/permissions/com.android.mediadrm.signer.xml \
+    vendor/leeco/msm8996-common/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
+    vendor/leeco/msm8996-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
     vendor/leeco/msm8996-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
