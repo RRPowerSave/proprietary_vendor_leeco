@@ -123,6 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
     vendor/leeco/x2/proprietary/etc/firmware/widevine.mbn:system/etc/firmware/widevine.mbn \
     vendor/leeco/x2/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
+    vendor/leeco/x2/proprietary/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat:system/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat \
     vendor/leeco/x2/proprietary/etc/mixer_paths_letv.xml:system/etc/mixer_paths_letv.xml \
     vendor/leeco/x2/proprietary/etc/qvop/antispoofing.bin:system/etc/qvop/antispoofing.bin \
     vendor/leeco/x2/proprietary/etc/qvop/cmudict.bin:system/etc/qvop/cmudict.bin \
@@ -171,7 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
     vendor/leeco/x2/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/x2/proprietary/lib64/libminui.so:system/lib64/libminui.so \
-    vendor/leeco/x2/proprietary/vendor/etc/audio_output_policy_letv.conf:system/vendor/etc/audio_output_policy_letv.conf \
     vendor/leeco/x2/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/leeco/x2/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/leeco/x2/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
