@@ -16,8 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
-    vendor/leeco/msm8996-common/proprietary/lib/hw/audio.primary.msm8996.so:system/lib/hw/audio.primary.msm8996.so \
-    vendor/leeco/msm8996-common/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so \
     vendor/leeco/msm8996-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/leeco/msm8996-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/leeco/msm8996-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
